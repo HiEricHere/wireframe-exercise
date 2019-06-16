@@ -73,25 +73,37 @@ footer {
   width: 1024px;
 }
 
+a:visited, a:link {
+  color: white;
+  text-decoration: none;
+}
+
 h3 {
   font-size: 24px;
   margin-bottom: 0.5em;
 }
 
-p {
+section > p {
+
   font-size:16px;
   margin-bottom: 0.5em;
 }
 
 #callToAction {
-  float: left;
   background-color: black;
   color: white;
+  float: left;
+  font-size: 16px;
   height: 16px;
   margin-top: 10px;
-  margin-bottom: 0px;
   text-align: center;
   padding: 7px 30px;
   width: 120px;
 }
 
+#callToAction:hover {
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  transition-duration: 350ms;
+}
