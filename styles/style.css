@@ -1,0 +1,97 @@
+html {
+  padding: 10px;
+}
+
+body {
+  width: 1024px;
+  margin: auto;
+}
+
+header {
+  background-color: rgb(87, 82, 82);
+  height: 70px;
+  margin-bottom: 30px;
+  padding: 10px 0px;
+}
+
+header > div {
+  font-size: 0px;
+  height: 70px;
+  margin: auto;
+  width: 960px;
+}
+
+header > div > img {
+  float:left;
+}
+
+header > div > nav {
+  display: inline-block;
+  margin: 10px 0px;
+  padding: 15px 0px;
+  width: 760px;
+}
+
+header > div > nav > ul > li {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  width: 190px;
+}
+
+main {
+  margin: auto;
+  width: 960px;
+}
+
+main > div {
+  font-size: 0px;
+  margin: 0px auto 30px auto;
+  width: 960px;
+  overflow: hidden;
+}
+
+main > div:nth-child(2) > img:first-child, img:nth-child(2) {
+  margin-right: 30px;
+}
+
+main > div:last-child > figure {
+  float: left;
+  margin-right: 30px;
+  width: 50%;
+}
+
+main > div:last-child > section {
+  overflow: auto;
+  height: 440px;
+}
+
+footer {
+  background-color: rgb(87, 82, 82);
+  height: 70px;
+  width: 1024px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size:16px;
+  margin-bottom: 0.5em;
+}
+
+#callToAction {
+  float: left;
+  background-color: black;
+  color: white;
+  height: 16px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 7px 30px;
+  width: 120px;
+}
+
